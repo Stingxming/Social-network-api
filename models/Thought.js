@@ -3,7 +3,7 @@ const reactionSchema = require("./Reaction");
 const dateFormat = require("../utils/dateFormat");
 
 // Schema to create a course model
-const courseSchema = new Schema(
+const thoughtSchema = new Schema(
   {
     thoughtText: {
       type: String,
